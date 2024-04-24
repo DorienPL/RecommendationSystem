@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Cocktail";
+}
+@model List<RecommendationSystem.Models.Cocktail>
+
+<h1>Cocktails</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+<ul>
+    @foreach (var cocktail in Model)
+    {
+    <li>ID: @cocktail.Id, Name: @cocktail.Name</li>
+    }
+</ul>
+}
+else
+{
+<p>No cocktails found.</p>
+}
