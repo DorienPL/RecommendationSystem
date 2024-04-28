@@ -2,29 +2,17 @@
 
 namespace RecommendationSystem.Models
 {
-   // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
     public class Drink
     {
         public string idDrink { get; set; }
         public string strDrink { get; set; }
         public object strDrinkAlternate { get; set; }
         public string strTags { get; set; }
-        public object strVideo { get; set; }
         public string strCategory { get; set; }
-        public string strIBA { get; set; }
         public string strAlcoholic { get; set; }
         public string strGlass { get; set; }
         public string strInstructions { get; set; }
-        public object strInstructionsES { get; set; }
-        public string strInstructionsDE { get; set; }
-        public object strInstructionsFR { get; set; }
-        public string strInstructionsIT { get; set; }
 
-        [JsonProperty("strInstructionsZH-HANS")]
-        public object strInstructionsZHHANS { get; set; }
-
-        [JsonProperty("strInstructionsZH-HANT")]
-        public object strInstructionsZHHANT { get; set; }
         public string strDrinkThumb { get; set; }
         public string strIngredient1 { get; set; }
         public string strIngredient2 { get; set; }
@@ -56,10 +44,6 @@ namespace RecommendationSystem.Models
         public object strMeasure13 { get; set; }
         public object strMeasure14 { get; set; }
         public object strMeasure15 { get; set; }
-        public string strImageSource { get; set; }
-        public string strImageAttribution { get; set; }
-        public string strCreativeCommonsConfirmed { get; set; }
-        public string dateModified { get; set; }
     }
 
     public class Root

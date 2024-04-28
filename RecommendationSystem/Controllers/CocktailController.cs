@@ -3,7 +3,6 @@ using Newtonsoft.Json;
 using RecommendationSystem.Models;
 
 namespace RecommendationSystem.Controllers;
-
 public class CocktailController : Controller
 {
     public async Task<IActionResult> Index()
@@ -23,5 +22,21 @@ public class CocktailController : Controller
         var root = JsonConvert.DeserializeObject<Root>(content);
         return View(root.drinks);
     }
-    
+    public async Task<IActionResult> Random()
+    {
+        var client = new HttpClient();
+        
+        var request = new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri("https://www.thecocktaildb.com/api/json/v1/1/random.php"),
+        };
+
+
+        using var response = await client.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+        var content = await response.Content.ReadAsStringAsync();
+        var random = JsonConvert.DeserializeObject<Root>(content);
+        return View(random.drinks);
+    }
 }

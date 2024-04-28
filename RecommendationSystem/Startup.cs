@@ -44,6 +44,7 @@ namespace RecommendationSystem
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Cocktail}/{action=Index}/{id?}");
+                
             });
         }
     }
