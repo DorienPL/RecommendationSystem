@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using RecommendationSystem.Helpers;
 using RecommendationSystem.Models;
 
 namespace RecommendationSystem.Controllers;
@@ -37,6 +38,7 @@ public class CocktailController : Controller
         response.EnsureSuccessStatusCode();
         var content = await response.Content.ReadAsStringAsync();
         var random = JsonConvert.DeserializeObject<Root>(content);
+        random.drinks[0].ingredients = IngredientHelper.ConvertIngredients(random.drinks[0]);
         return View(random.drinks);
     }
 }

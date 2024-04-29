@@ -16,8 +16,14 @@
             <li>Glass type: @cocktail.strGlass</li>
             <li>Category: @cocktail.strCategory</li>
             <li>How to prepare: @cocktail.strInstructions</li>
+            <li>Ingredients: @foreach (var ingredient in @cocktail.ingredients)
+                             {
+                                 <li>@ingredient.name - @ingredient.measure</li>
+                             }
+            </li>
             <li><img src="@cocktail.strDrinkThumb" alt=""/></li>
         </ul>
+        
     }
 </ul>
 }
