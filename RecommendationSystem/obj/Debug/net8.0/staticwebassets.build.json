@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+eYCCuCsJrQhuWaxZsOsJ50efr1RLZn/1RoPTK9V4MM=",
+  "Hash": "sTAExbei6jLjW7TA29P6vB6gM4hAyzKr47JuvJy1rOk=",
   "Source": "RecommendationSystem",
   "BasePath": "_content/RecommendationSystem",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Dorie\\RiderProjects\\RecommendationSystem\\RecommendationSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RecommendationSystem.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dorie\\RiderProjects\\RecommendationSystem\\RecommendationSystem\\wwwroot\\css\\coctail.css",
+      "SourceId": "RecommendationSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dorie\\RiderProjects\\RecommendationSystem\\RecommendationSystem\\wwwroot\\",
+      "BasePath": "_content/RecommendationSystem",
+      "RelativePath": "css/coctail.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\coctail.css"
     },
     {
       "Identity": "C:\\Users\\Dorie\\RiderProjects\\RecommendationSystem\\RecommendationSystem\\wwwroot\\css\\site.css",

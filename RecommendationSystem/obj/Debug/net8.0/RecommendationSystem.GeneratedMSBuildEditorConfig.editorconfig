@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dorie\RiderProjects\RecommendationSystem\RecommendationSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dorie/RiderProjects/RecommendationSystem/RecommendationSystem/Views/Cocktail/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ja3RhaWxcSW5kZXguY3NodG1s
+[C:/Users/Dorie/RiderProjects/RecommendationSystem/RecommendationSystem/Views/Cocktail/NoResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ja3RhaWxcTm9SZXN1bHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dorie/RiderProjects/RecommendationSystem/RecommendationSystem/Views/Cocktail/Random.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ja3RhaWxcUmFuZG9tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dorie/RiderProjects/RecommendationSystem/RecommendationSystem/Views/Cocktail/SearchByIngredient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ja3RhaWxcU2VhcmNoQnlJbmdyZWRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dorie/RiderProjects/RecommendationSystem/RecommendationSystem/Views/Cocktail/SearchByName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ja3RhaWxcU2VhcmNoQnlOYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dorie/RiderProjects/RecommendationSystem/RecommendationSystem/Views/Home/Index.cshtml]

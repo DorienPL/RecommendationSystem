@@ -1,0 +1,13 @@
+﻿@{
+ViewData["Title"] = "Search Cocktails";
+}
+
+<h1 align="center">Search for a Cocktail</h1>
+
+<form method="post" action="/Cocktail/Search">
+    <div class="form-group">
+        <label for="cocktailName">Cocktail Name:</label>
+        <input type="text" id="cocktailName" name="cocktailName" class="form-control" placeholder="Enter cocktail name" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
