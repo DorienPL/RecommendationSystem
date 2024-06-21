@@ -4,10 +4,10 @@ ViewData["Title"] = "Search Cocktails";
 
 <h1 align="center">Search for a Cocktail with specific ingredient</h1>
 
-<form method="post" action="/Cocktail/Search">
+<form method="post" action="/Cocktail/SearchByIngredient">
     <div class="form-group">
         <label for="cocktailName">Ingedient Name:</label>
-        <input type="text" class="form-control" placeholder="Enter ingredient name" required>
+        <input id="ingredient" name="ingredient" type="text" class="form-control" placeholder="Enter ingredient name" required>
     </div>
     <button type="submit" class="btn btn-primary">Search</button>
 </form>

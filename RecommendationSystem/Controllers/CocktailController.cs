@@ -100,6 +100,12 @@ public class CocktailController : Controller
                     detailedDrink.ingredients = IngredientHelper.ConvertIngredients(detailedDrink);
                     fullDetails.Add(detailedDrink);
                 }
+
+                if (fullDetails.Count >= 10)
+                {
+                    break;                    
+                }
+
             }
             return View("Random", fullDetails);
         }

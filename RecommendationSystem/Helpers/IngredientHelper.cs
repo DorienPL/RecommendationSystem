@@ -39,7 +39,7 @@ public class IngredientHelper
             result.Add(new Ingredient()
             {
                 name = ingredientsList[i],
-                measure = measurementsList.Count() > i ? measurementsList[i] : "na oko"
+                measure = measurementsList.Count() > i ? measurementsList[i] : "As You believe"
             });
         }
 
