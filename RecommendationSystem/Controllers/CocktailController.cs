@@ -79,7 +79,7 @@ public class CocktailController : Controller
         var content = await response.Content.ReadAsStringAsync();
         var searchResult = JsonConvert.DeserializeObject<Root>(content);
 
-        if (searchResult.drinks != null && searchResult.drinks.Count > 0)
+        if (searchResult?.drinks != null && searchResult.drinks.Count > 0)
         {
             var fullDetails = new List<Drink>();
             foreach (var drink in searchResult.drinks)
