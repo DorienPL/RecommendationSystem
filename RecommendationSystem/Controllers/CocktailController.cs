@@ -101,7 +101,7 @@ public class CocktailController : Controller
                     fullDetails.Add(detailedDrink);
                 }
 
-                if (fullDetails.Count >= 10)
+                if (fullDetails.Count >= 20)
                 {
                     break;                    
                 }
